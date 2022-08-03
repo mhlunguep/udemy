@@ -2,7 +2,21 @@
 
 <!-- wp:columns {"className":"container !mx-auto my-16"} -->
 <div class="wp-block-columns container !mx-auto my-16"><!-- wp:column {"width":"66.66%"} -->
-  <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:query {"queryId":5,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"layout":{"inherit":true}} -->
+  <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:html -->
+   <!-- Search Block -->
+   <div class="wp-block-udemy-plus-search-form">
+      <h1>Search: Your search term here</h1>
+      <form>
+        <input type="text" placeholder="Search" />
+        <div class="btn-wrapper">
+          <button type="submit">Search</button>
+        </div>
+      </form>
+    </div>
+  
+  <!-- /wp:html -->
+  
+  <!-- wp:query {"queryId":5,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"layout":{"inherit":true}} -->
   <div class="wp-block-query"><!-- wp:columns -->
   <div class="wp-block-columns"><!-- wp:column {"width":"33.33%","layout":{"wideSize":""}} -->
   <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:post-author {"style":{"spacing":{"margin":{"bottom":"0.5rem"},"padding":{"top":"0rem","right":"0rem","bottom":"0rem","left":"0rem"}}},"textColor":"u-gray-700","className":"post-author"} /-->

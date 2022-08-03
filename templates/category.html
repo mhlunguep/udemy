@@ -1,0 +1,60 @@
+<!-- wp:template-part {"slug":"header","theme":"udemy","tagName":"header","className":"shadow "} /-->
+
+<!-- wp:html -->
+ <!-- Page Header -->
+ <div class="wp-block-udemy-plus-page-header">
+  <div class="inner-page-header">
+    <h1>Category: Cats</h1>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:columns {"className":"container !mx-auto my-16"} -->
+<div class="wp-block-columns container !mx-auto my-16"><!-- wp:column {"width":"66.66%"} -->
+<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:query {"queryId":5,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"layout":{"inherit":true}} -->
+<div class="wp-block-query"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"33.33%","layout":{"wideSize":""}} -->
+<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:post-author {"style":{"spacing":{"margin":{"bottom":"0.5rem"},"padding":{"top":"0rem","right":"0rem","bottom":"0rem","left":"0rem"}}},"textColor":"u-gray-700","className":"post-author"} /-->
+
+<!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|u-gray-700"}}},"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":1.8},"spacing":{"margin":{"bottom":"1rem","top":"0rem"}}},"fontSize":"medium"} /-->
+
+<!-- wp:post-date {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|u-gray-500"}}}},"className":"!mt-0"} /--></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"66.7%","className":"!","layout":{"wideSize":"66.66%"}} -->
+<div class="wp-block-column !" style="flex-basis:66.7%"><!-- wp:post-featured-image {"className":"rounded-lg overflow-hidden ","style":{"spacing":{"margin":{"bottom":"1rem"}}}} /-->
+
+<!-- wp:post-terms {"term":"post_tag","style":{"typography":{"fontSize":"0.785rem"},"elements":{"link":{"color":{"text":"var:preset|color|u-gray-500"}}}},"textColor":"u-gray-500"} /-->
+
+<!-- wp:post-excerpt {"style":{"typography":{"fontSize":"0.875em"}},"className":"post-excerpt !mt-4"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:post-template -->
+<!-- wp:post-title /-->
+
+<!-- wp:post-date /-->
+
+<!-- wp:post-excerpt /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"paginationArrow":"chevron","style":{"elements":{"link":{"color":{"text":"var:preset|color|u-gray-500"}}}},"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"nowrap"}} -->
+<!-- wp:query-pagination-previous {"className":"rounded-md py-2 px-4 block transition-all hover:bg-gray-100"} /-->
+
+<!-- wp:query-pagination-next {"className":"rounded-md py-2 px-4 block transition-all hover:bg-gray-100"} /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when the query returns no results."} -->
+<p></p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"33.33%"} -->
+<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:template-part {"slug":"sidebar","theme":"udemy"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:template-part {"slug":"footer","theme":"udemy","tagName":"footer","className":"bg-gray-700 p-16"} /-->
