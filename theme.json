@@ -241,7 +241,7 @@
       }
     },
     "typography": {
-      "fontFamily": "var()--wp--preset--font-family--u-rubik",
+      "fontFamily": "var(--wp--preset--font-family--u-rubik)",
       "fontSize": "16px",
       "fontStyle": "normal",
       "fontWeight": "normal",
